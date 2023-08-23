@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 7 2048</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="title">2048</div>
+        <div>HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</div>
+        <div class="score">Score: <span id="score">0</span></div>
+    
+        <div class="board">
+            <div id="tile"></div>
+        </div>
+        <div id="click">
+        <button class="reset">Reset Game</button>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="engine/game.js" type="module"></script>
+        <script src="2048.js" type="module"></script>
+    </body>
+</html>
